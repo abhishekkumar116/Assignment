@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="head">Upto 50% of on selected products</h2>
+      <div>
+        <input type="text" id="search" placeholder="Search for products..." />
+        <i id="icon" class="fas fa-search"></i>
+      </div>
+    </header>
+    <main>
+      <span class="cards">
+        <a class="card" href="/">
+          <img src="/images/product1.jpg" alt="Product 1" />
+          <h2>Laundry</h2>
+        </a>
+        <a class="card" href="/" >
+          <img src="/images/product2.jpg" alt="Product 2"/>
+          <h2>Dry Clean</h2>
+        </a>
+
+        <a class="card" href="product.html">
+          <img src="/images/product3.jpg" alt="Product 3" />
+          <h2>Upholstery</h2>
+        </a>
+
+        <a class="card" href="product.html">
+          <img src="/images/product4.jpg" alt="Product 3" />
+          <h2>Steam Ironing</h2>
+        </a>
+        <a class="card" href="/">
+          <img src="/images/product5.jpg" alt="Product 3" />
+          <h2>Home Cleaning</h2>
+        </a>
+        <a class="card" href="/">
+          <img src="/images/product6.jpg" alt="Product 3" />
+          <h2>Products Store</h2>
+        </a>
+
+        <!-- Add more cards here -->
+      </span>
+      <div>
+        <h2>Hot Deals</h2>
+      </div>
+      <div class="container">
+        <div class="slide active">
+          <img src="images/offer.jpg" alt=""/>
+        </div>
+        <div class="slide">
+          <img src="images/product3.jpg" alt=""/>
+        </div>
+        <div class="slide">
+          <img src="images/product2.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img src="images/product1.jpg" alt=""/>
+        </div>
+      <div id="button-prev" class="slider-button"> < </div>
+      <div id="button-next" class="slider-button"> > </div>
+      <div class="dots-container">
+        <div class="dot activeDot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </main>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
